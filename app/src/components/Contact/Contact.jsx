@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <div className="sub-contact">
                 <img src={linkedin} alt="linkedin-img" />
-                <p>LinkedIn</p>
+                <p><a href="https://linkedin.com/in/raghvendra-singh-rathore-55801034b">LinkedIn</a></p>
             </div>
         </div>
     </div>

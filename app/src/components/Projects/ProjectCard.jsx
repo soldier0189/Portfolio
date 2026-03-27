@@ -6,8 +6,8 @@ const ProjectCard = (props) => {
         <img src={props.image} alt="Project img" />
         <h5>{props.title}</h5>
         <div className="buttons">
-            <button>GitHub</button>
-            <button>Live Demo</button>
+            <button><a href={props.gitHubLink}>GitHub</a></button>
+            <button><a href={props.liveDemoLink}>Live Demo</a></button>
         </div>
     </div>
   )
