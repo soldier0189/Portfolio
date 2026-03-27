@@ -1,0 +1,44 @@
+.navbar{
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar h4{
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar .nav-right ul{
+    display: flex;
+    height: 100%;
+    gap: 30px;
+    align-items: center;
+
+}
+.list{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(24, 24, 24);
+    font-weight: 600;
+    
+}
+.list::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: black;
+    transition: 0.3s;
+}
+.list:hover{
+    color: black;
+}
+.list:hover::after{
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+

@@ -1,0 +1,86 @@
+.hero{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.hero-img{
+    height: 250px;
+    width: 250px;
+    
+    border-radius: 50%;
+}
+.hero-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.greeting p{
+    font-weight: 500;
+    color: gray;
+}
+.greeting h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+.button-container button{
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: 600;
+    background-color: white;
+}
+
+.links-container{
+    display: flex;
+    gap: 10px;
+    height: 30px;
+
+}
+.button-container button:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+.platform-link:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+a{
+    height: 30px;
+    text-decoration: none;
+
+}
+a .platform-link{
+    height: 30px;
+}
+.contact-info{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.contact-info:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}

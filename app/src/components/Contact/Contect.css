@@ -1,0 +1,24 @@
+.contact{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-box{
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+   
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.sub-contact{
+    display: flex;
+    gap: 10px;
+}
+.sub-contact img{
+    height: 30px;
+}
