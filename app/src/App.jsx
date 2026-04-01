@@ -7,7 +7,7 @@ import Skills from "./components/Skills/Skills"
 
 function App() {
   return (
-    <div className="app container-fluid">
+    <div className="app">
         <Navbar/>
         <Hero/>
         <About/>

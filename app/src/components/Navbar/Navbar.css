@@ -1,14 +1,19 @@
 .navbar{
     height: 60px;
     display: flex;
-    margin-top: 20px;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #ffffffcc;
+    position: fixed;
+
 
 }
 .navbar h4{
     font-size: 30px;
     font-weight: 800;
+    color: #0c022ec9;
 }
 .navbar .nav-right ul{
     display: flex;
@@ -25,6 +30,8 @@
     flex-direction: column;
     color: rgb(24, 24, 24);
     font-weight: 600;
+    
+    
     
 }
 .list::after{

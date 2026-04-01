@@ -4,11 +4,13 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    padding-top: 100px;
+    margin-bottom: 60px;
 }
 .hero-img{
     height: 250px;
     width: 250px;
-    
+    border: 5px solid #0c022ebb;
     border-radius: 50%;
 }
 .hero-img img{
@@ -21,13 +23,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #10033a;
 }
 .greeting p{
     font-weight: 500;
-    color: gray;
+    color: #0c022e;
 }
 .greeting h2{
     font-size: 38px;
+    color: #0c022ebb;
     font-weight: 800;
 }
 .button-container{

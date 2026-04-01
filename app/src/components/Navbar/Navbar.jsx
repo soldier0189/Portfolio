@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 import "./Navbar.css"
 const Navbar = () => {
   return (
-     <nav className='navbar container'>
+     <nav className='navbar container-fluid'>
         <div className="nav-left">
              <h4>Raghvendra Singh </h4>
         </div>

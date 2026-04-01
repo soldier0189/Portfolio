@@ -2,9 +2,21 @@
 html{
     scroll-behavior: smooth;
 }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+h2{
+    
+    color: #0c022ebb;
+}
 body{
     height: 100vh;
     font-family: 'Inter', sans-serif;
-    
-    
+    background-image: url("./assets/download\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
