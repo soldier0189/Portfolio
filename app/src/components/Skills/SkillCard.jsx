@@ -3,7 +3,7 @@ import check from "../../assets/checkmark.png"
 import "./SkillCard.css"
 const SkillCard = (props) => {
   return (
-    <div className='skill-card container col-sm-12 col-lg-3 '>
+    <div className='skill-card container col-sm-12'>
         <h3 className='title'>{props.title}</h3>
         <div className="skill-grid">
             {props.subject.map((sub, index) => {
