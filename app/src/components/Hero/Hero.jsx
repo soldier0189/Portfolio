@@ -6,11 +6,11 @@ import { Link } from 'react-scroll'
 import "./Hero.css"
 const Hero = () => {
   return (
-    <div className='hero container'>
-        <div className="hero-img">
+    <div className='hero container row'>
+        <div className="hero-img col-lg-6">
             <img src={profilePic} alt="Profile Picture" />
         </div>
-        <div className="greeting">
+        <div className="greeting col-lg-6">
             <p>Hello I'm</p>
             <h2>Raghvendra Singh</h2>
             <h5>AI / Data Science Intern</h5>

@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className='skills container'>
         <h2>Skills</h2>
-        <div className="skill-box">
+        <div className="skill-box row">
             <SkillCard title="Languages" subject={[{"Python": "Experienced"}, {"C++": "Intermediate"}, {"SQL": "Experienced"}, {"HTML": "Experienced"}, {"CSS": "Experienced"}, {"Reactjs": "Intermediate"}]} />
             <SkillCard title="ML Frameworks" subject={[{"Scilit-Learn": "Experienced"}, {"Tensorflow": "Intermediate"}, {"Keras": "Intermidiate"}]} />
             <SkillCard title="Tools" subject={[{"Git / GitHub": "Experienced"}, {"VS code": "Experienced"}, {"Jupyter":"Experienced"}]} />
